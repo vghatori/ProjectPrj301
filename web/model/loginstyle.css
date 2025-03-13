@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 11, 2025, 3:18:50 PM
+    Author     : Admin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+* {
+    font-family: "Darumadrop One", serif;
+}
+
+body {
+    background: url(..//GameImage/background.jpg) no-repeat;
+    height: auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-position: center;
+}
+
+
+
+.n {
+    width: 100%;
+    padding: 30px;
+    font-size: large;
+    background:transparent;
+ 
+    
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
